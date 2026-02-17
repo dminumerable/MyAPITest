@@ -26,6 +26,15 @@
       "publishAllPorts": true,
       "useSSL": true
     },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchUrl": "https://localhost:7132",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:7132;http://localhost:5009"
+      },
+      "distributionName": ""
+    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
