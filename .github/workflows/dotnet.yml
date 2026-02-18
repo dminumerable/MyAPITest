@@ -23,15 +23,19 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
     - name: Restore
+      working-directory: ./src/MyAPI
       run: dotnet restore
 
     - name: Build
+      working-directory: ./src/MyAPI
       run: dotnet build --configuration Release --no-restore
 
     - name: Test
+      working-directory: ./src/MyAPI
       run: dotnet test --no-build --verbosity normal
 
     - name: Publish
+      working-directory: ./src/MyAPI
       run: dotnet publish -c Release -o ./publish
 
     - name: Deploy to Azure
