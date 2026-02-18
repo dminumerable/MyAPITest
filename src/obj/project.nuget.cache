@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "coH4I5VJw/0=",
+  "success": true,
+  "projectFilePath": "D:\\GITHUB\\MyAPITest\\src\\MyAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\INUMERABLE\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\INUMERABLE\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\INUMERABLE\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}
